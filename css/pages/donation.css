@@ -1,1 +1,67 @@
 @import "../base/global.css";
+
+.donate__home{
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 96px;
+    justify-content: space-between;
+
+}
+.donate__home-text{
+    width: 627px;
+display: flex;
+flex-wrap: wrap;
+
+
+}
+.line{
+    width: 72px;
+stroke-width: 2px;
+stroke: #1D2130;
+}
+.donate__home-text h4{
+    color:#1D2130;
+font-size: 16px;
+font-weight: 700;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.donate__home-text h1{
+    color:#1D2130;
+font-size: 56px;
+font-weight: 700;
+line-height: 120%; 
+}
+.donate__home-text p{
+    width: 517px;
+    color:#525560;
+    margin-top: 14px;
+    margin-bottom: 32px;
+font-size: 16px;
+font-weight: 400;
+line-height: 160%;
+}
+.btn-home{
+    display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 4px;
+backdrop-filter: blur(40px);
+}
+
+.donate__home-img{
+    display: flex;
+width: 480px;
+height: 384px;
+flex-shrink: 0;
+border-radius: 12px;
+background: lightgray 50% / cover no-repeat;
+}
+.donate__home-img img{
+    width: 100%;
+}
+
+
