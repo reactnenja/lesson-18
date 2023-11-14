@@ -1,0 +1,19 @@
+/* Paragriph lg */
+.lead {
+  color: var(--secondary-text);
+  /* Paragraph */
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+/* Paragriph lg */
+
+/* Paragriph small */
+.lead-sm {
+  color: var(--secondary-text);
+  /* Paragraph small */
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+}
+/* Paragriph small */

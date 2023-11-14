@@ -1,0 +1,43 @@
+/* Define a consistent margin for each column */
+.col {
+  margin: 15px;
+}
+
+/* Grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 15px;
+  align-items: stretch;
+  padding: 15px;
+}
+
+/* Define a default size for the grid items */
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  grid-column: span 1;
+  grid-row: span 1;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Responsive styling for the grid items */
+@media (max-width: 480px) {
+  .grid-item {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-item {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .grid-item {
+    font-size: 28px;
+  }
+}
