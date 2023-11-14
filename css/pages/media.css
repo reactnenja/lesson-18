@@ -1,1 +1,90 @@
 @import "../base/global.css";
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .header > .navbar {
+    width: 100%;
+    padding: 0px;
+  }
+  .nav-navigation > .logo-link {
+    width: 60%;
+    text-align: center;
+  }
+  .nav-navigation > .nav-group > .nav-list {
+    display: none;
+  }
+  .nav-navigation > .nav-group {
+    justify-content: end;
+  }
+  .nav-navigation > .nav-group > .btn-toogle {
+    display: block;
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    color: red;
+    margin: 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .header > .navbar {
+    width: 100%;
+    padding: 0px;
+  }
+  .nav-navigation > .logo-link {
+    width: 50%;
+  }
+  .nav-group > .nav-list {
+    display: none;
+  }
+  .nav-navigation > .nav-group {
+    justify-content: end;
+  }
+  .nav-navigation > .nav-group > .btn-toogle {
+    display: block;
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    color: red;
+    margin: 10px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024.9px) {
+  .header > .navbar {
+    width: 100%;
+    padding: 0px;
+  }
+  .nav-navigation > .logo-link {
+    width: 50%;
+  }
+  .nav-group > .nav-list {
+    display: none;
+  }
+  .nav-navigation > .nav-group {
+    justify-content: end;
+  }
+  .nav-navigation > .nav-group > .btn-toogle {
+    display: block;
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    color: red;
+    margin: 10px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
