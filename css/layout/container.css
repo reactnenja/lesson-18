@@ -1,32 +1,36 @@
 /* Base styles for xs screens */
 .container {
- max-width: 100%; /* Or whatever width you prefer for xs screens */
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* Or whatever width you prefer for xs screens */
 }
 
 /* Styles for sm screens */
 @media (min-width: 576px) {
- .container {
+  .container {
     max-width: 540px;
- }
+  }
 }
 
 /* Styles for md screens */
 @media (min-width: 768px) {
- .container {
+  .container {
     max-width: 720px;
- }
+  }
 }
 
 /* Styles for lg screens */
 @media (min-width: 992px) {
- .container {
+  .container {
     max-width: 960px;
- }
+  }
 }
 
 /* Styles for xl screens */
 @media (min-width: 1200px) {
- .container {
+  .container {
     max-width: 1140px;
- }
+  }
 }

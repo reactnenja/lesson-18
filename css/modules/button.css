@@ -1,0 +1,41 @@
+.btn {
+  border: none;
+  background: transparent;
+  border-radius: 4px;
+  backdrop-filter: blur(40px);
+}
+/* btn padding size */
+
+/* medium size */
+.btn-md {
+  padding: 12px 32px;
+}
+/* medium size */
+
+/* large size */
+.btn-lg {
+  padding: 16px 32px;
+}
+/* large size */
+/* btn padding size */
+
+/* btn bg-green color */
+.btn-success {
+  background-color: var(--green-primary);
+  color: var(--white);
+}
+/* btn bg-green color */
+
+/* btn bg-light color */
+.btn-light {
+  background-color: var(--white);
+  color: var(--primary-text);
+}
+/* btn bg-light color */
+
+/* btn bg-black color */
+.btn-black {
+  background-color: var(--primary-text);
+  color: var(--white);
+}
+/* btn bg-black color */

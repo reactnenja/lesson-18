@@ -1,7 +1,20 @@
+/* BASE STYLE URL STRUCTURA */
+
 @import "./fonts.css";
 @import "./reset.css";
 @import "./variables.css";
 
+/* BASE STYLE URL STRUCTURA */
+
+/* MODULES URL STRUCTURA STYLES */
+
+@import "../modules/grid.css";
+@import "../modules/button.css";
+
+/* MODULES URL STRUCTURA STYLES */
+
+/* LAYOUT STYLE URL STRUCTURA */
 @import "../layout/header.css";
 @import "../layout/container.css";
 @import "../layout/footer.css";
+/* LAYOUT STYLE URL STRUCTURA */
