@@ -1,5 +1,6 @@
 /* @import "../base/global.css"; */
 .navbar {
+  width: 1280px;
   padding: 19.5px 0px;
   width: 100%;
   position: fixed;
@@ -9,19 +10,24 @@
   z-index: 2;
   border-bottom: 2px solid #e5e5e5;
 }
-.nav-navigation,
+.nav-navigation {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .nav-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .nav-group {
-  width: 58%;
   display: flex;
   justify-content: space-between;
 }
 .nav-list {
-  max-width: 497px;
   margin-right: 20px;
 }
 .nav-items {
@@ -42,19 +48,20 @@
 .btn-toogle {
   display: none;
 }
-
+.navbar-responsive {
+  left: -8400px;
+}
 .navbar-responsive.hide {
-  left: -1400px;
   transition: all 0.9s;
+  left: 0px;
 }
 .navbar-responsive {
   position: fixed;
   width: 100%;
   transition: all 0.9s;
-
+  /* display: none; */
   height: 100%;
   top: 78px;
-  left: 0px;
   background-color: rgba(40, 34, 34, 0.181);
   backdrop-filter: blur(50px);
   padding: 150px 0px;
@@ -73,7 +80,7 @@
 
 .btn-md-large {
   width: 80%;
-  padding: 25px 20px;
+  padding: 16px 20px;
   text-align: center;
   font-size: 24px;
 }
