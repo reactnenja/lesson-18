@@ -59,6 +59,7 @@
   position: fixed;
   width: 100%;
   transition: all 0.9s;
+  z-index: 2;
   /* display: none; */
   height: 100%;
   top: 78px;
