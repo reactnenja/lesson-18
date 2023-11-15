@@ -10,6 +10,7 @@
 
 @import "../modules/grid.css";
 @import "../modules/button.css";
+@import "../modules/media.css";
 
 /* MODULES URL STRUCTURA STYLES */
 
@@ -18,4 +19,3 @@
 @import "../layout/container.css";
 @import "../layout/footer.css";
 /* LAYOUT STYLE URL STRUCTURA */
-
