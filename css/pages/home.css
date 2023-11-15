@@ -1,2 +1,10 @@
 @import "../base/global.css";
-@import "./media.css";
+
+.header {
+  width: 100%;
+  height: 130vh;
+}
+
+.hero__section-home {
+    
+}
