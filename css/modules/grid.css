@@ -1,0 +1,10 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+}
+
+.grid-item {
+  padding: 5px;
+}
+
+/* Use media queries to define how the grid should behave on smaller devices */
