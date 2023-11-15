@@ -1,0 +1,69 @@
+/* btn padding size */
+.btn {
+  background: transparent;
+  border-radius: 4px;
+  backdrop-filter: blur(40px);
+  color: #fff;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+/* btn padding size */
+
+/* medium size */
+.btn-md {
+  padding: 12px 32px;
+  max-width: 112px;
+}
+/* medium size */
+
+/* large size */
+.btn-lg {
+  padding: 16px 32px;
+}
+/* large size */
+/* btn padding size */
+
+/* btn bg-green color */
+.btn-success {
+  background-color: var(--green-primary);
+  outline: 3px solid var(--green-primary) !important;
+  color: var(--white);
+  transition: all 0.9s;
+}
+/* btn bg-green color */
+
+/* btn bg-light color */
+.btn-light {
+  background-color: var(--white);
+  outline: 3px solid #e6e6e6 !important;
+
+  color: var(--primary-text);
+  transition: all 0.9s;
+}
+/* btn bg-light color */
+
+/* btn bg-black color */
+.btn-black {
+  background-color: var(--primary-text);
+  color: var(--white);
+  outline: 3px solid var(--primary-text) !important;
+  transition: all 0.9s;
+}
+/* btn bg-black color */
+
+/* btn hover */
+.btn-success:hover {
+  color: var(--green-primary);
+  background-color: transparent;
+}
+.btn-black:hover {
+  color: var(--primary-text);
+  background-color: transparent;
+}
+.btn-light:hover {
+  color: var(--primary-text);
+  background-color: transparent;
+}
+/* btn hover */
