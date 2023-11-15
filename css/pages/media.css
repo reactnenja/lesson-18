@@ -1,19 +1,11 @@
-
 @import "../base/global.css";
 
 #servis {
   width: 100%;
+  padding: 70px 0;
   background-color: #eff7f2;
 }
-.container {
-  max-width: 1280px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-.header-content {
+.container .header-content {
   display: flex;
   margin-top: 96px;
 }
@@ -76,7 +68,7 @@
 
 .content-right {
   max-width: 592px;
-  height: 576px;
+  /* height: 576px; */
   margin-left: 96px;
   border-radius: 12px;
   background-color: white;
@@ -114,7 +106,7 @@
 .small__text {
   max-width: 296px;
   margin-left: 24px;
-  margin-top: -8px;
+
   color: var(--Secondary-text, #525560);
 
   /* Paragraph */
@@ -124,17 +116,7 @@
   line-height: 160%; /* 25.6px */
 }
 
-/* =================main==================== */
-
-.container {
-  max-width: 1280px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-.team-big__text {
+.container .team-big__text {
   margin-bottom: 16px;
   color: var(--Primary-text, #1d2130);
   text-align: center;
@@ -152,6 +134,7 @@
   /* margin-top: 16px; */
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 48px;
   color: var(--Secondary-text, #525560);
   text-align: center;
 
@@ -162,3 +145,169 @@
   font-weight: 400;
   line-height: 160%; /* 25.6px */
 }
+/* ===============risponsive============= */
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .header-content {
+    flex-direction: column;
+  }
+  .content__left {
+    width: 100%;
+  }
+  .content-right {
+    width: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 800px) {
+  .column__top,
+  .column__mean,
+  .column__low {
+    flex-direction: column;
+  }
+  .icon__data {
+    display: none;
+  }
+  .content-right,
+  .content__left {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .content__main,
+  .content__article,
+  .content__btn {
+    margin-left: auto;
+  }
+
+  .column,
+  .content__left {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+/* =================main==================== */
+
+.team-box {
+  display: flex;
+  gap: 24px;
+}
+.team__img {
+  width: 100%;
+  
+}
+
+.big__text {
+  max-width: 290px;
+  margin-bottom: 8px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #1d2130;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+}
+
+.small__text {
+  max-width: 290px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #525560;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+/* ============risponsive================ */
+
+@media (min-width: 320px) and (max-width: 800px){
+  .team-box{
+    flex-direction: column;
+  }
+  .big__text, .small__text{
+    text-align: center;
+  }
+}
+
+/* ==============section==================== */
+
+.sec6 {
+  margin-top: 96px;
+  margin-bottom: 96px;
+}
+.sec6-cards {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+.sec6-card-left {
+  display: flex;
+  max-width: 628px;
+  border-radius: 8px;
+  background: var(--Green-secondary, #bef3c0);
+  padding: 32px 48px 40px 40px;
+}
+.sec6-card-left1 {
+  display: flex;
+  max-width: 628px;
+  border-radius: 8px;
+  background: var(--Green-secondary, #bef3c0);
+  padding: 32px 48px 40px 40px;
+}
+.sec6-card-left span h3 {
+  color: var(--Primary-text, #1d2130);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 120%;
+  font-variant: small-caps;
+}
+.sec6-card-left span h4 {
+  color: var(--Primary-text, #1d2130);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-left: 24px;
+  padding-right: 23px;
+}
+.sec6-card-left span h5 {
+  color: var(--Primary-text, #1d2130);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.sec6-card-left h2 {
+  color: var(--Primary-text, #1d2130);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 150%;
+  max-width: 381px;
+  padding: 8px 24px 0 24px;
+}
+.sec6-line {
+  display: flex;
+}
+.sec6-img {
+  max-width: 56px;
+  height: 56px;
+}
+
+@media (min-width: 320px) and (max-width: 800px){
+  .sec6{
+    width:100%;
+    flex-direction: column;
+  }
+  .sec6-card-left{
+    /* width: 100%; */
+    flex-direction: column;
+    text-align: center;
+  }
+  .sec6-card-left1{
+    /* width: 100%; */
+    flex-direction: column;
+    text-align: center;
+  }
+}
+/* section our events end */

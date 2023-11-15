@@ -1,7 +1,9 @@
 /* Base styles for xs screens */
 .container {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1300px;
   margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
   /* Or whatever width you prefer for xs screens */
 }
