@@ -4,7 +4,7 @@
 }
 
 .grid-item {
-
+  padding: 5px;
 }
 
 /* Use media queries to define how the grid should behave on smaller devices */

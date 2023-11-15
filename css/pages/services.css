@@ -1,107 +1,73 @@
 @import "../base/global.css";
 
-
-
-
 /* site hero start */
 
-.hero-section{
-padding: 96px 0px;
-    height: 560px;
+.hero-section {
+  padding: 96px 0px;
+  height: 560px;
 }
-.site-hero{
-    height: 384px;
-gap: 150px;
-    
-}
-
-
-
-
-.site-hero{
-    width: 1500px;
-    height: 3846px;
-
+.site-hero {
+  height: 384px;
+  gap: 150px;
 }
 
-
-.hero-left{
-    padding: 96px 0px;
-    max-width: 690px;
-    height: 297px;
-    position: relative;
-}
-.hero-right{
-    width: 480px;
-    padding: 96px 0px;
-}
-.hero-right> img{
-    width: 100%;
-    height: 384px;
+.site-hero {
+  width: 1500px;
+  height: 3846px;
 }
 
-
+.hero-left {
+  padding: 96px 0px;
+  max-width: 690px;
+  height: 297px;
+  position: relative;
+}
+.hero-right {
+  width: 480px;
+  padding: 96px 0px;
+}
+.hero-right > img {
+  width: 100%;
+  height: 384px;
+}
 
 /* hero left heading start */
-.hero__left__heading{
-    max-width: 120px;
-    margin-bottom: 32px;
-    color: var(--primary-text);
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 2px;
-
+.hero__left__heading {
+  max-width: 120px;
+  margin-bottom: 32px;
+  color: var(--primary-text);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
-.main__heading{
-    margin-bottom: 34px;
-    max-width: 461px;
-    color: var(--primary-text);
-    font-family: "Roboto";
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 120%; 
+.main__heading {
+  margin-bottom: 34px;
+  max-width: 461px;
+  color: var(--primary-text);
+  font-family: "Roboto";
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 120%;
 }
 /* hero left heading end */
 
 /* hero left paragraph start */
 
-.hero__left__paragraph{
-    max-width: 594px;
-    color: var(--secondary-text);
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 160%; 
+.hero__left__paragraph {
+  max-width: 594px;
+  color: var(--secondary-text);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
 }
 
 /* hero left paragraph end */
 
-
 /* line */
 
-
 /* line */
-
-
 
 /* main section-about start */
-
-
-
-/* main section-about end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
