@@ -1,1 +1,116 @@
 @import "../base/global.css";
+
+/* hero section start */
+
+.border-servis__heading{
+    color: var(--primary-text);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.heading-servise{
+    width: 461px;
+    color: var(--Primary-text, #1D2130);
+    font-family: "Roboto";
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 120%; 
+}
+
+
+.paragriph-servis{
+    width: 594px;
+    color: var(--Secondary-text, #525560);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+}
+
+.grid-item{
+    padding: 200px 0px;
+    
+}
+
+.grid-item >img{    
+    margin-left: 145px;
+}
+/* hero section end */
+
+
+
+/* section about css start */
+.logo__about{
+    display: flex;
+}
+
+
+.about__main__heading{
+    color: var(--Primary-text);
+
+/* H2 */
+    font-family: "Roboto";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+}
+
+.card__heading{
+    color: var(--primary-text);
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+
+.paragraph__about{
+    width: 332px;
+    color: var(--Secondary-text);
+
+/* Paragraph small */
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%; /* 22.4px */
+}
+
+
+
+
+
+.section-about{
+    width: 1500px;
+    height: 574px;
+    flex-shrink: 0;
+    background: var(--green-tertiary);
+    width: 100%;
+}
+
+.cards-about{
+    display: flex;
+    gap: 116px;
+    
+}
+
+
+
+
+/* section about css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
