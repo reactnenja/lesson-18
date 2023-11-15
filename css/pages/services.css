@@ -193,6 +193,34 @@
 /* section sustainable start */
 
 
+.sustainable-heading{
+    padding: 96px 0px 64px 0px;
+}
+
+.sustainable__common__heading{
+    color: var(--Primary-text);
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.sustainable__main__heading{
+    width: 700px;
+    color: var(--Primary-text);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Roboto";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+}
+
+
 .project-cards {
     margin-bottom: 100px;
 }
@@ -210,24 +238,23 @@ opacity: 0.9;
 background: var(--Black, #0B0706);
 }
 .card1-bac-img {
-
-    background-image: url(../../assets/images/contact.images/tinified/card1.png);
+    width: 100%;
+    background-image: url(../../assets/images/contacts/card1.png);
 
 }
 .card2-bac-img{
     width: 100%;
-    background-image: url(../../assets/images/contact.images/tinified/card2.png);
+    background-image: url(../../assets/images/contact.images/card2.png);
 }
 .card3-bac-img{
     width: 100%;
-    background-image: url(../../assets/images/contact.images/tinified/card3.png);
+    background-image: url(../../assets/images/contact.images/card3.png);
 }
 .project-card1 h1 , .project-card2 h1 , .project-card3 h1 {
     padding:70px 45px 25px 45px ;
     color: #FFF;
 font-family: Roboto;
 font-size: 28px;
-font-style: normal;
 font-weight: 700;
 line-height: 150%; /* 42px */
 }
@@ -245,29 +272,41 @@ line-height: 160%; /* 25.6px */
 .project-card1 button , .project-card2 button  , .project-card3 button  {
     margin-left:  120px;
     display: inline-flex;
-padding: 16px 32px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 4px;
-background: #FFF;
-backdrop-filter: blur(40px);
-color: var(--Primary-text, #1D2130);
-text-align: right;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #FFF;
+    backdrop-filter: blur(40px);
+    color: var(--Primary-text, #1D2130);
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+
 }
+
+.btn__group__donate{
+    padding-left: 466px;
+    margin-top: 32px;
+}
+
+.btn__group__donate{
+    display: flex;
+    gap: 32px;
+
+}
+
 .project-card1 button:hover , .project-card2 button:hover  , .project-card3 button:hover{
     color: #FFF;
     background-color: #0B0706;
     transition: 0.5s;
 }
 .sec4-bgimg {
-    background-image: url(../../assets/images/contact.images/tinified/tint.png);
+    background-image: url(../../assets/images/contacts/tint.png );
     max-width: 1280px;
+    height: 384px;
     /* height: 384px; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -305,13 +344,53 @@ line-height: normal;
     transition: 0.5s
   }
 
-
-
-
-
-
-
 /* section sustainable end */
+
+
+/* section media start */
+  
+.team-box {
+  display: flex;
+  gap: 24px;
+}
+.team__img {
+  width: 100%;
+  
+}
+
+.big__text {
+  max-width: 290px;
+  margin-bottom: 8px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #1d2130;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+}
+
+.small__text {
+  max-width: 290px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #525560;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+
+@media (min-width: 320px) and (max-width: 800px){
+  .team-box{
+    flex-direction: column;
+  }
+  .big__text, .small__text{
+    text-align: center;
+  }
+}
+
+/* section media end */
 
 
 
