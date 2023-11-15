@@ -1,0 +1,15 @@
+:root {
+  /* color of sections site */
+  --black: #0b0706;
+  --white: #ffffff;
+  --off-white: #ebf0f9;
+  --green-primary: #70c174;
+  --green-secondary: #bef3c0;
+  --border-color: #e5e5e5;
+  --green-tertiary: #eff7f2;
+  /* color of sections site */
+  /* text color variables */
+  --primary-text: #1d2130;
+  --secondary-text: #525560;
+  /* text color variables */
+}
