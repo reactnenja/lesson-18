@@ -1,0 +1,111 @@
+@import "../base/global.css";
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .header > .navbar {
+    width: 100%;
+    padding: 0px;
+  }
+  .nav-navigation > .logo-link {
+    width: 60%;
+    text-align: center;
+  }
+  .nav-navigation > .nav-group > .nav-list {
+    display: none;
+  }
+  .nav-navigation > .nav-group {
+    justify-content: end;
+  }
+  .nav-navigation > .nav-group > .btn-toogle {
+    display: block;
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    color: red;
+    margin: 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .header > .navbar {
+    width: 100%;
+    padding: 0px 20px;
+  }
+  .nav-navigation > .logo-link {
+    width: 50%;
+    padding: 20px;
+  }
+  .nav-group > .nav-list {
+    display: none;
+  }
+  .nav-navigation > .nav-group {
+    justify-content: end;
+  }
+  .nav-navigation > .nav-group > .btn-toogle {
+    display: block;
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    color: red;
+    margin: 10px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 1024.9px) {
+  .header > .navbar {
+    width: 100%;
+    padding: 0px;
+  }
+  .nav-navigation > .logo-link {
+    width: 50%;
+    padding: 15px;
+    
+  }
+  .nav-group > .nav-list {
+    display: none;
+  }
+  .nav-navigation > .nav-group {
+    justify-content: end;
+  }
+  .nav-navigation > .nav-group > .btn-toogle {
+    display: block;
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 8px;
+    color: red;
+    margin: 10px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .navbar-responsive {
+    display: none;
+  }
+  .nav-navigation {
+    width: 1000px;
+    padding: 0px 20px;
+  }
+  .logo-link {
+    margin-right: 176px;
+  }
+  .nav-group {
+    width: 100%;
+  }
+  .nav-group > .nav-list {
+    max-width: 700px;
+  }
+  .nav-items {
+    width: 150px;
+    padding: 12px 0px;
+  }
+}
