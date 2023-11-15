@@ -1,8 +1,6 @@
 @import "../base/global.css";
  
 
-
-
 .container {
     margin: 0 auto;
     max-width: 1400px;
@@ -84,7 +82,9 @@ flex-shrink: 0;
 }
 .contact-inputs {
     display: flex;
-    gap: 109px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
 }
 
 .form-container {
@@ -92,14 +92,15 @@ flex-shrink: 0;
     margin: 0 auto;
 }
 
-.input-left {
-    display: flex;
-    flex-direction: column;
+.input-left, .input-right {
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-direction: column;
+    width: 50%;
 }
 .inputs-button button.input-bottom.input-left label , input {
-    color: var(--Primary-text, #1D2130);
-    font-family: Roboto;
-    font-style: normal;
+    color: var(--primary-text);
     line-height: 160%; 
 }
 .input-left label{
@@ -108,15 +109,16 @@ font-weight: 700;
 opacity: 0.6;
 margin-bottom: 10px;
 }
-.input-left input{
-    margin-bottom: 32px;
-    max-width: 100%;
+.input-left input , .input-right input{
+    margin-bottom: 72px;
+    width: 100%;
 height: 45px;
 font-size: 19px;
 font-weight: 400;
 border: none;
 box-shadow: 0 1px 0 0 #E5E5E5;
 }
+
 .input-bottom input {
     width: 100%;
     height: 179px;
