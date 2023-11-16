@@ -7,8 +7,6 @@ body {
   width: 100%;
   height: 901px;
 }
-.navbar {
-}
 .hero__section-home {
   margin-top: 92px;
   width: 100%;
@@ -55,8 +53,8 @@ body {
 }
 
 /* main */
-.main {
-}
+/* .main {
+} */
 .about-section {
   max-height: 849px;
   background-color: var(--white);
@@ -106,8 +104,7 @@ body {
   max-width: 608px;
   margin-bottom: 48px;
 }
-.site-main-green {
-}
+
 .about__foot {
   display: flex;
   justify-content: space-between;
@@ -152,8 +149,6 @@ body {
     margin-top: 50px;
   }
 
-  .footer {
-  }
   .grid-container {
     grid-template-columns: 1fr;
   }

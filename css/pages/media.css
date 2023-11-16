@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> b0635a70f253fe197d8879b5248c775be7e616e4
 @import "../base/global.css";
 
 #servis {
@@ -5,7 +10,19 @@
   padding: 70px 0;
   background-color: #eff7f2;
 }
+<<<<<<< HEAD
 .container .header-content {
+=======
+.container {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.header-content {
+>>>>>>> b0635a70f253fe197d8879b5248c775be7e616e4
   display: flex;
   margin-top: 96px;
 }
