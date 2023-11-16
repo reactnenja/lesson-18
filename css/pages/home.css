@@ -140,7 +140,46 @@ body {
 }
 .site-main-green {
   background-color: #eff7f2;
-  height: 901px;
+  height: 1070px;
+  padding: 100px 0px;
+}
+.coming__heading {
+  color: var(--primary-text);
+  max-width: 608px;
+  margin-bottom: 12px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+}
+.comming__group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.comming__left {
+  width: 50%;
+  height: 441px;
+  border-left: 2px solid #e5e5e5;
+  padding: 0px 40px;
+}
+.comming__left-option {
+  width: 436px;
+  height: 88px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.comming-menu__gr > h4 {
+  color: var(--primary-text, #1d2130);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.lead__comming {
+  max-width: 608px; 
 }
 /* main */
 
